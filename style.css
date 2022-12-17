@@ -250,14 +250,15 @@ header {
 .expert {
     padding: 15px;
     padding-top: 230px;
+    position:relative;
     color:white;
     background: linear-gradient(261.2deg, rgba(255, 255, 255, 0.276) -114.85%, rgba(255, 255, 255, 0) 69.04%), #040613;
 }
 
 .expert .expert_title {
     font-weight: 700;
-    font-size: 42px;
-    line-height: 51px;
+    font-size: 20px;
+    line-height: 24px;
     color: #FFFFFF;
 }
 
@@ -266,6 +267,7 @@ header {
     flex-wrap:wrap;
     row-gap: 30px;
     margin-top: 20px;
+    margin-bottom: 350px;
 }
 
 .expert .expert_item {
@@ -276,7 +278,7 @@ header {
 
 .expert .expert_item .expert_item_text {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
     margin-left: 20px;
     margin-top: 10px;
@@ -291,6 +293,151 @@ header {
     height: 100px;
     background-color: #F14D34;
     position: absolute;
+}
+
+.expert  .expert_bg{
+    position:absolute;
+    bottom: -70px;
+    left:-15px;
+    width: 400px;
+}
+
+.rate {
+    padding: 90px 15px 0 15px;
+    text-align: center;
+    position:relative;
+}
+
+.rate .rate_title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+}
+.rate .rate_wrapper {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+
+    row-gap:20px;
+}
+
+
+
+.rate .rate_item {
+    width: 100%;
+    min-height: 400px;
+    background-color: #fff;
+    text-align-last: left;
+    box-sizing: border-box;
+    padding: 30px 30px 30px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+    transition: 0.5s;
+
+}
+
+
+
+.rate .rate_item_main {
+    
+    box-shadow: 0px 4px 60px rgba(162, 162, 162, 0.25);
+    z-index: 100;
+
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+
+.rate .rate_item .rate_item_name {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #F14D34;
+}
+
+.rate .rate_item .rate_item_line {
+    height: 1px;
+    width: 100%;
+    background-color: #040613;
+    margin-top:20px;
+}
+
+.rate .rate_item .rate_item_list {
+    margin-top: 48px;
+}
+
+.rate .rate_item .rate_item_list .list_item {
+    display: flex;
+    margin-top: 15px;
+    align-items: start;
+}
+
+.rate .rate_item .rate_item_list .list_item .mark {
+    margin-right: 18px;
+    width: 13px;
+    margin-top: 3px;
+}
+
+.rate .rate_item .rate_item_list .list_item .list_item_text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #050C33;
+    opacity: 0.7;
+    text-align: left;
+}
+
+.rate .rate_item .rate_item_btn {
+    width: 300px;
+    height: 60px;
+    background: #ffffff;
+    border-radius: 5px;
+    margin-top: 43px;
+    
+    text-align: center;
+    padding-left:87px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    border: 1px solid #F14D34;
+    color:#F14D34;
+}
+
+.rate .rate_item_main .rate_item_btn {
+    background-color:#F14D34;
+    color:white;
+}
+
+.rate .rate_bg {
+    position:absolute;
+    z-index:-2;
+    top:0;
+    right:0;
+    width: 1700px;
+}
+
+.rate .rate_no {
+    margin-top: 52px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #050C33;
+    opacity: 0.5;
+}
+
+.rate .rate_get {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #050C33;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+
+    margin-top: 26px;
 }
 
 
@@ -507,15 +654,18 @@ header {
 
 
     .expert {
-        height: 839px;
         z-index:-3;
         padding: 0;
-        padding-top: 422px;
-        box-sizing:border-box
+        padding-top: 400px;
+        box-sizing:border-box;
+        padding-bottom: 100px;
+        height: 880px;
     }
 
     .expert .expert_title {
         margin-left: 624px;
+        font-size: 42px;
+        line-height: 51px;
     }
 
     .expert .expert_wrapper {
@@ -533,6 +683,149 @@ header {
 
     .expert .expert_wrapper .expert_item_text {
         margin-left: 15px;
+        font-size: 16px;
+    }
+
+    .expert .expert_bg {
+        position:absolute;
+        bottom: -120px;
+        
+        width: 660px;
+    }
+
+    .rate {
+        padding-top: 155px;
+        text-align: center;
+    }
+    
+    .rate .rate_title {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 51px;
+    }
+    .rate .rate_wrapper {
+        display: flex;
+        margin-top: 50px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    
+    .rate .rate_item {
+        width: 375px;
+        min-height: 550px;
+        background-color: #fff;
+        text-align-last: left;
+        box-sizing: border-box;
+        padding: 75px 30px 62px 30px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    
+        transition: 0.5s;
+    
+    }
+    
+    
+    
+    .rate .rate_item_main {
+        
+        width: 410px;
+        height: 700px;
+        box-shadow: 0px 4px 60px rgba(162, 162, 162, 0.25);
+        z-index: 100;
+    
+        transition: 0.5s;
+        cursor:pointer;
+    }
+    
+    
+    .rate .rate_item .rate_item_name {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        color: #F14D34;
+    }
+    
+    .rate .rate_item .rate_item_price {
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 72px;
+    }
+    
+    .rate .rate_item .rate_item_time {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .rate .rate_item .rate_item_line {
+        height: 1px;
+        width: 100%;
+        background-color: #323449;
+        margin-top: 30px;
+    }
+    
+    .rate .rate_item .rate_item_list {
+        margin-top: 48px;
+    }
+    
+    .rate .rate_item .rate_item_list .list_item {
+        display: flex;
+        margin-top: 19px;
+        align-items: start;
+    }
+    
+    .rate .rate_item .rate_item_list .list_item .mark {
+        margin-right: 18px;
+        width: 13px;
+        margin-top: 3px;
+    }
+    
+    .list_item_text {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 22px;
+        color: #050C33;
+        opacity: 0.7;
+        text-align: left;
+        width: 260px;
+    }
+
+    .rate .rate_item_main .rate_item_list .list_item .list_item_text {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    
+    .rate .rate_item .rate_item_btn {
+        width: 100%;
+        height: 60px;
+        background: #ffffff;
+        border-radius: 5px;
+        margin-top: 43px;
+        
+        text-align: center;
+        padding-left:105px;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+        border: 1px solid #F14D34;
+        color:#F14D34;
+    }
+    
+    .rate .rate_item_main .rate_item_btn {
+        background-color:#F14D34;
+        color:white;
+        margin-top: 70px;
+    }
+
+
+    .rate .rate_bg {
+        position:absolute;
+        z-index:-2;
+        top:0;
+        right:0;
+        width: 843px;
     }
 
 }
