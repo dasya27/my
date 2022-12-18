@@ -440,6 +440,165 @@ header {
     margin-top: 26px;
 }
 
+.request {
+    background: linear-gradient(261.2deg, rgba(255, 255, 255, 0.276) -114.85%, rgba(255, 255, 255, 0) 69.04%), #040613;
+
+    color:white;
+    padding: 30px 20px 70px 20px;
+}
+
+.request .request_content {
+    max-width: 500px;;
+    z-index:2;
+}
+
+.request .request_title {
+    font-weight: 700;
+    font-size: 22px;
+    width: 300px;
+    margin: 0 auto;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.request .request_desc {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-top: 19px;
+    text-align:justify;
+}
+
+.request .request_phone {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.request .request_phone .request_phone_icon {
+    margin-right: 15px;
+}
+
+.request .request_phone .request_phone_num {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.request .request_email {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.request .request_email .request_email_icon{
+    margin-right: 19px;
+}
+
+.request .request_email .request_email_add {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-decoration-line: underline;
+}
+
+.request .request_form {
+    max-width: 600px;
+    height: 480px;
+    z-index:2;
+    margin-top: 20px;
+}
+
+.request_wrapper {
+    display: flex;
+    justify-content: space-around;
+    position:relative;
+    flex-wrap:wrap;
+}
+
+.request_bg {
+    position:absolute;
+    left:30%;
+    z-index:1;
+    width: 200px;
+    top:-30px;
+}
+
+.input_name, .input_email, .input_tel {
+    display: block;
+    width: 100%;
+    height: 55px;
+    padding-left: 24px;
+    margin-bottom: 8px;
+
+    border: 1px solid #ffffffb6;
+    border-radius: 5px;
+    background: none;
+    box-sizing: border-box;
+}
+
+.request input::placeholder{
+    font-weight: 480px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    
+}
+
+.request textarea {
+    background: none;
+    color:white;
+    border-radius:5px;
+    width: 100%;
+    border: 1px solid #ffffffb6;
+    box-sizing: border-box;
+    padding-top: 26px;
+    padding-left: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.check_wrapper {
+    display: flex;
+    align-items: center;
+    column-gap:13px;
+    margin-top: 15px;
+}
+
+.check {
+    width: 25px;
+    height: 25px;
+    background: none;
+}
+
+.check_text {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.request_btn {
+    width: 100%;
+    height: 60px;
+    background: #F14D34;
+    border-radius: 5px;
+    border:none;
+
+    color:white;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
 
 @media (min-width: 1200px)
 {
@@ -826,6 +985,160 @@ header {
         top:0;
         right:0;
         width: 843px;
+    }
+
+    .request {
+        background: linear-gradient(261.2deg, rgba(255, 255, 255, 0.276) -114.85%, rgba(255, 255, 255, 0) 69.04%), #040613;
+
+        color:white;
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+
+    .request .request_content {
+        width: 480px;
+        z-index:2;
+    }
+
+    .request .request_title {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 51px;
+        color: #FFFFFF;
+        margin-top: 20px;
+    }
+
+
+    .request .request_desc {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #FFFFFF;
+        opacity: 0.7;
+        margin-top: 19px;
+    }
+
+    .request .request_phone {
+        display: flex;
+        align-items: center;
+        margin-top: 142px;
+    }
+
+    .request .request_phone .request_phone_icon {
+        margin-right: 15px;
+    }
+
+    .request .request_phone .request_phone_num {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 150%;
+    }
+
+    .request .request_email {
+        display: flex;
+        align-items: center;
+    }
+
+    .request .request_email .request_email_icon{
+        margin-right: 19px;
+    }
+
+    .request .request_email .request_email_add {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 150%;
+        text-decoration-line: underline;
+    }
+
+    .request .request_form {
+        width: 478px;
+        height: 480px;
+        z-index:2;
+    }
+
+    .request_wrapper {
+        display: flex;
+        justify-content: space-between;
+        position:relative;
+        column-gap:20px;
+    }
+
+    .request_bg {
+        position:absolute;
+        left:36%;
+        top:-50px;
+        z-index:1;
+        width: 320px;
+    }
+
+    .input_name, .input_email, .input_tel {
+        display: block;
+        width: 480px;
+        height: 55px;
+        padding-left: 24px;
+        margin-bottom: 8px;
+
+        border: 1px solid #ffffffb6;
+        border-radius: 5px;
+        background: none;
+        box-sizing: border-box;
+    }
+
+    .request input::placeholder{
+        font-weight: 480px;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        
+    }
+
+    .request textarea {
+        background: none;
+        color:white;
+        border-radius:5px;
+        width: 100%;
+        border: 1px solid #ffffffb6;
+        box-sizing: border-box;
+        padding-top: 26px;
+        padding-left: 16px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .check_wrapper {
+        display: flex;
+        align-items: center;
+        column-gap:13px;
+        margin-top: 15px;
+    }
+
+    .check {
+        width: 25px;
+        height: 25px;
+        background: none;
+    }
+
+    .check_text {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .request_btn {
+        width: 100%;
+        height: 60px;
+        background: #F14D34;
+        border-radius: 5px;
+        border:none;
+
+        color:white;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        margin-top: 20px;
     }
 
 }
