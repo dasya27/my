@@ -977,8 +977,25 @@ header .header_content .header_adv .header_adv_item .big {
     .request .request_title {
         font-size: 42px;
         line-height: 51px;
+<<<<<<< HEAD
         text-align: left;
         width: 100%;
+=======
+        color: #FFFFFF;
+        margin-top: 20px;
+        width: 100%;
+        text-align:left;
+    }
+
+
+    .request .request_desc {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #FFFFFF;
+        opacity: 0.7;
+        margin-top: 19px;
+>>>>>>> 73a7a44ae347fe067ef31af65c694d5aed14d032
     }
 
     .request .request_phone {
@@ -1019,4 +1036,58 @@ header .header_content .header_adv .header_adv_item .big {
         line-height: 16px;
         color: #FFFFFF;
     }
+<<<<<<< HEAD
 }
+=======
+
+    .request textarea {
+        background: none;
+        color:white;
+        border-radius:5px;
+        width: 100%;
+        border: 1px solid #ffffffb6;
+        box-sizing: border-box;
+        padding-top: 26px;
+        padding-left: 16px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .check_wrapper {
+        display: flex;
+        align-items: center;
+        column-gap:13px;
+        margin-top: 15px;
+    }
+
+    .check {
+        width: 25px;
+        height: 25px;
+        background: none;
+    }
+
+    .check_text {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .request_btn {
+        width: 100%;
+        height: 60px;
+        background: #F14D34;
+        border-radius: 5px;
+        border:none;
+
+        color:white;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+
+}
+>>>>>>> 73a7a44ae347fe067ef31af65c694d5aed14d032
